@@ -1,0 +1,26 @@
+@import "~taro-ui/dist/style/index.scss";
+
+.container {
+	position: fixed;
+	top: 0;
+	bottom: 63.8px;
+	left: 0;
+	right: 0;
+	overflow-y: auto;
+
+	 .scrollview {
+		height: calc(100% - 63.8px);
+		 background: #f1f1f1;
+
+		 ::-webkit-scrollbar {
+			 display:none;
+			 width:0;
+			 height:0;
+			 color:transparent;
+		 }
+	}
+}
+
+.at-tab-bar__item--active {
+	color: #76b624;
+}

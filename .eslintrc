@@ -1,0 +1,14 @@
+{
+  "extends": ["taro/react"],
+  "rules": {
+    "react/jsx-uses-react": "off",
+    "react/react-in-jsx-scope": "off",
+	  "react/jsx-boolean-value": "off",
+	  "react/jsx-indent-props": "off",
+	  "react/jsx-closing-bracket-location": "off",
+	  "@typescript-eslint/no-shadow": "off",
+	  "react/jsx-tag-spacing": "off",
+	  "jsx-quotes": "off",
+	  "import/first": "off"
+  }
+}

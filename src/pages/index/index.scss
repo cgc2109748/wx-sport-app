@@ -1,0 +1,77 @@
+.home {
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 1rem;
+
+	.home-banner {
+		width: 100%;
+		height: 300px;
+		background: url("https://i.pinimg.com/736x/7c/e8/29/7ce8299fde2eb91f87a71dd1673126a2.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+	.home-sign-btn {
+		width: 7.5rem;
+		height: 7.5rem;
+		border-radius: 50%;
+		line-height: 7.5rem;
+		font-size: 2rem;
+		margin-top: -3.75rem;
+
+		color: #FFF;
+		background: #76b624;
+		text-align: center;
+		box-shadow: rgba(0, 0, 0, 0.2) 0px 0.128rem 0.21333rem -0.04267rem, rgba(0, 0, 0, 0.14) 0px 0.256rem 0.42667rem 0px, rgba(0, 0, 0, 0.12) 0px 0.04267rem 0.768rem 0px;
+	}
+
+	.card-list {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		margin-top: 0.5rem;
+		gap: 0.5rem;
+
+		.card {
+			//width: 100%;
+			.card-wrapper {
+				//display: flex;
+				//flex-direction: row;
+				position: relative;
+				display: flow-root;
+
+				.img-wrapper	{
+					width: 200px;
+					height: 200px;
+					overflow: hidden;
+					float: left;
+				}
+
+				.card-img {
+					max-height: 6rem;
+					border-radius: 0.25rem;
+				}
+
+				.card-content {
+					padding: 0 1rem;
+					width: calc(100% - 200px - 2rem);
+					float: right;
+					max-height: 200px;
+					overflow: hidden;
+
+					.card-text {
+						color: rgba(0,0,0,.5);
+					}
+
+					.card-tags {
+						display: flex;
+						gap: 0.5rem
+					}
+				}
+			}
+		}
+	}
+}

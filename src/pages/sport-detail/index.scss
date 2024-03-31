@@ -1,0 +1,23 @@
+.sport-detail {
+	.sport-detail-wrapper {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		.title {
+			width: 100%;
+			text-align: center;
+			font-size: 40px;
+		}
+
+		image {
+			width: 100%;
+			margin-top: 16px;
+			margin-bottom: 16px;
+		}
+
+		.content {
+			padding: 0 8px;
+		}
+	}
+}

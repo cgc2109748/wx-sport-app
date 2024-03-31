@@ -1,0 +1,44 @@
+.dashboard-page {
+	.at-calendar__list.flex .flex__item--selected-head.flex__item--selected-tail .flex__item-container {
+		background-color: #76b624;
+	}
+
+	.at-calendar__list.flex .flex__item--today {
+		color: #76b624;
+		//
+		//	.flex__item-container {
+		//		background: #76b624;
+		//		border-radius: 50%;
+		//	}
+	}
+
+	.at-calendar__list.flex .flex__item--selected {
+		color: #FFFFFF !important;
+	}
+
+	.at-calendar__list.flex .flex__item-extra .extra-marks .mark {
+		color: #76b624;
+		background-color: #76b624;
+	}
+	.at-calendar__list.flex .flex__item--selected .extra-marks .mark {
+		color: #FFFFFF !important;
+		background-color: #FFFFFF !important;
+	}
+
+	.today-step {
+		margin-top: 16px;
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+
+		.today-step-title {
+			font-size: 40px;
+			font-weight: bold;
+		}
+
+		.today-step-text {
+			font-size: 32px;
+			color: #76b624;
+		}
+	}
+}
